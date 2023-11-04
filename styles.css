@@ -1,9 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" );
+
+/* COLOR VARIABLES */
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #2e5bff;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --color-grey: #eee;
+    --color-dark-grey: #222831;
+}
+
+/* GLOBAL STYLES */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family:"Raleway", sans-serif;
+
+}
+
 p {
-    font-size: 2rem;
+    font-size: 1.6rem;
+}
+
+img {
+    /* width: 100% */
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    width: 100%;
+    padding: 10rem 0;
+}
+
+
+/* ******HEADER SECTION******* */
+/* ******HEADER SECTION******* */
+/* ******HEADER SECTION******* */
+header {
+    width: 100%;
+    padding: 2.5rem 0;
+    background: linear-gradient(to right bottom, 
+    var(--light-blue), #53d4f5);
+    border-radius: 0 0 5rem 5rem;
+}
+
+.logo {
+    color: var(--white);
+    height: 3.5rem;
+    font-size: 2.6rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+}
+
+.nav-ul li {
+    list-style: none;
+    padding: 0 5px;
+}
+
+.nav-ul li a {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--white)
+}
+
+li .cta {
+    display: none;
+}
+
+.btn {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid var(--white);
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    transition: all 0.3s;
+    color: var(--white);
+}
+
+
+.btn:hover {
+    background-color: var(--white);
+    border: 3px solid var(--white); 
+    color: var(--blue); 
 }

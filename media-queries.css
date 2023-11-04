@@ -1,0 +1,29 @@
+/* MOBILE WIDTH 600PX AND BELOW */
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-bottom: 5px;
+    }
+    .btn {
+        display: none;
+    }
+
+    li .cta {
+        display: block;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-ul {
+        justify-content: center;
+        border-bottom: 2px solid white;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 5px 0;
+        border-radius: 3px 3px 0 0;
+        width: 70%;
+        margin: 0 auto;
+    
+    }
+}
