@@ -12,6 +12,10 @@
     .feature-image img {
         transform: translateY(0);
     }
+
+    .btn-square {
+        margin-top: 2rem;
+    }
 }
 
 
