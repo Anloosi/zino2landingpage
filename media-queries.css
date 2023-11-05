@@ -1,3 +1,25 @@
+/* TABLETS */
+@media screen and (max-width:900px) {
+    #features {
+        height: 100%;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-image img {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
 /* MOBILE WIDTH 600PX AND BELOW */
 @media screen and (max-width: 600px) {
     .logo {
@@ -26,4 +48,6 @@
         margin: 0 auto;
     
     }
+
+
 }
